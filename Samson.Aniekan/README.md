@@ -7,7 +7,7 @@ The OSI Model is a reference/logical model. It was designed to describe the func
 3.	Internet Layer
 4.	Network Access/Link Layer
 
-* Differences between OSI and TCP/IP model
+** Differences between OSI and TCP/IP model
 1. OSI represents Open System Interconnection.	TCP/IP model represents the Transmission Control Protocol / Internet Protocol.
 2. OSI is a generic, protocol independent standard. It is acting as an interaction gateway between the network and the final-user.	TCP/IP model depends on standard protocols about which the computer network has created. It is a connection protocol that assigns the network of hosts over the internet.
 3. The OSI model was developed first, and then protocols were created to fit the network architecture’s needs. TCP/IP model The protocols were created first and then built the TCP/IP model.

@@ -107,8 +107,8 @@ li, a, .cta{
   text-decoration: none;
   background-color:#5e54d1;
   color: white;
-  padding: 10px 25px;
-  border-radius: 5px;
+  padding: 5px 25px;
+  border-radius: 8px;
   margin-left: 20px;
   border: none;
 }

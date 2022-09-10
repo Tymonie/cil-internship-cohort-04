@@ -136,9 +136,9 @@ li, a, .cta{
 }
 .work>div{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 .work>div>img{
   max-width: 300px;

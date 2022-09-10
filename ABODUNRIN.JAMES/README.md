@@ -1,10 +1,29 @@
-# TASK ONE
-## THE TCP/IP MODEL
+# TASK TWO
+## IP ADDRESSES
 
-TCP/IP stands for Transmission Control Protocol/ Internet Protocol. TCP/IP Stack is specifically designed as a model to offer highly reliable and end-to-end byte stream over an unreliable internet work. The functionality of the TCP IP model is divided into four
-layers, and each includes specific protocols. TCP/IP is a layered server architecture system in which each layer is defined according to a specific function to perform. All these four TCP IP layers work collaboratively to transmit the data from one layer to another
+* GOOGLE 216.58.223.206
+* FACEBOOK 102.132.101.35
+* TESLA 184.50.204.169
 
-* Application Layer
-* Transport Layer
-* Internet Layer
-* Network Interface
+### SUBNETS
+
+#### 10.10.10.0
+
+* 10.10.10.0/26 subnet mask: 255.255.255.192
+* 10.10.10.64/26 subnet mask: 255.255.255.192
+* 10.10.10.128/26 subnet mask: 255.255.255.192
+* 10.10.10.192/26 subnet mask: 255.255.255.192
+
+#### 192.168.0.0
+
+* 192.168.0.0/18 subnet mask: 255.255.192.0
+* 192.168.0.64/18 subnet mask: 255.255.192.0
+* 192.168.0.128/18 subnet mask: 255.255.192.0
+* 192.168.0.192/18 subnet mask: 255.255.192.0
+
+#### 172.168.1.0
+
+* 172.168.1.0/26 subnet mask: 255.255.255.192
+* 172.168.1.64/26 subnet mask: 255.255.255.192
+* 172.168.1.128/26 subnet mask: 255.255.255.192
+* 172.168.1.192/26 subnet mask: 255.255.255.192

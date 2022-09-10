@@ -35,8 +35,8 @@ The TCP/IP model is 4 layered (Application, Internet, Transport, Link). Some oth
 ### 1. Network Access Layer
 The Network Access Layer corresponds to the combination of Data Link Layer and Physical Layer of the OSI model. It is responsible for hardware addressing and the protocols present in this layer allows for the physical transmission of data.
 
-### 2. Internet Layer –
-This layer parallels the functions of OSI’s Network layer. It defines the protocols which are responsible for logical transmission of data over the entire network. The main protocols residing at this layer are :
+### 2. Internet Layer
+The Internet Layer parallels the functions of OSI’s Network layer. It defines the protocols which are responsible for logical transmission of data over the entire network. The main protocols residing at this layer are :
 
 - IP (Internet Protocol)
 - ICMP (Internet Control Message Protocol)

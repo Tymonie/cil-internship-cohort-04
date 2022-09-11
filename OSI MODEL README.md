@@ -1,7 +1,7 @@
 # cil-internship-cohort-04
-CIL 018
+# CIL 018
 
-DESCRIBE ANY LAYERED PROCESS YOU ARE FAMILIAR WITH SIMILAR TO THE OSI MODEL
+# Question 2 DESCRIBE ANY LAYERED PROCESS YOU ARE FAMILIAR WITH SIMILAR TO THE OSI MODEL
 
 In computer science, the concept of network layers is a framework that helps to understand complex network interactions. There are two models that are widely referenced today: OSI and TCP/IP. The concepts are similar, but the layers themselves differ between the two models.
 

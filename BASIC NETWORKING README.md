@@ -1,5 +1,5 @@
 # cil-internship-cohort-04
-CIL 018
+# CIL 018
 
 # Question 2. What is the NS IP addresses for Google, Facebook and Tesla? 
 NS stands for ‘nameserver,’ and the nameserver record indicates which DNS server is authoritative for that domain (i.e. which server contains the actual DNS records).

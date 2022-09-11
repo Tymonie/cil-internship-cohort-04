@@ -13,7 +13,10 @@ facebook.com IPv4: 157.240.201.35 IPv6: 2a03:2880:f145:82:face:b00c:0:25de
 tesla.com 184.50.204.169 184.30.18.203
 
 
-# Question 2. Breakdown the following RFC 1918 IPv4 address range into exactly 4 subnetwork with no address left over.”#### 1. 10.10.10.0#### 2. 192.168.0.0#### 3. 172.168.1.0
+# Question 2. Breakdown the following RFC 1918 IPv4 address range into exactly 4 subnetwork with no address left over.
+”#### 1. 10.10.10.0
+#### 2. 192.168.0.0
+#### 3. 172.168.1.0
 
 ---
 ## For 10.10.10.0

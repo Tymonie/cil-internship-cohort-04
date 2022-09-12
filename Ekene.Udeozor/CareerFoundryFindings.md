@@ -18,7 +18,7 @@
 Information architecture is the science of organizing and structuring content in a logical, user-friendly way.
 Information design focuses on how a user interacts specific elements of a digital product. It answers questions like "What happens when a user clicks a button?" or "How will the user transition between different pages on a mobile app?".
 
-#CAREERS IN UX design
+# CAREERS IN UX design
 
 UX researcher - The UX researcher conducts user research in order to identify the needs and pain-points of users and any oppurtunites for improvement.
 

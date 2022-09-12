@@ -350,4 +350,8 @@ body {
   border-radius: 2rem;
   margin-top: 5rem;
   cursor: pointer;
+  transition: .3s ease-in;
+}
+.form_submit:hover{
+  transform: scale(1.05);
 }

@@ -47,7 +47,7 @@ footer button {
     margin-top: 10%;
 }
 li#nav-item{
-    margin-right:4px;
+    margin-right:10px;
 }
 li a{
     color: #333 !important;
@@ -150,4 +150,14 @@ button.btn-dark:hover{
     border-radius: 0 !important;
     padding-left: 40px;
     padding-top: 12px;
+    margin-bottom: 20px;
+}
+.btn-msg{
+    background-color: #448CF0 !important;
+    margin: auto;
+    font-size: small;
+    padding: 10px 40px;
+}
+.btn-align-center{
+    display: grid;
 }

@@ -1,6 +1,7 @@
 body{
     margin: 1px;
     /* padding:  0px 85px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-bar{
     background-color: rgb(249, 245, 245);

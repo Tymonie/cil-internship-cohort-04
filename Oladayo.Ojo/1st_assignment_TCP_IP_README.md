@@ -63,7 +63,7 @@ The TCP/IP and OSI are network reference models. The process of developing both 
  layers Application, Presentation, and|
  Session to define the functionalities|
  of upper layers.                     |
-                                      |
+                                      |  
  The OSI model uses the Network layer | The TCP/IP model uses the Internet layer 
  to define routing                    |
 

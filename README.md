@@ -23,7 +23,7 @@ Application layer examples are: Telnet, File Transfer Protocol(FTP),Hypertext tr
 2.	This layer provides services such as e-mail, file transfer, distributing results to users, directory services, network resources, and so on
 3.	This layer allows users to interact with other software applications
 
-### What are the NS IP addresses for Google, Facebook and Tesla?
+### What are the NS IP addresses for Google, Facebook and Tesla
 
 GOOGLE Nameserver IP Address
 IPv4: 8.8.8.8 and/or 8.8.4.4 .

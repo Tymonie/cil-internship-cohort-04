@@ -1,0 +1,4 @@
+INTRODUCTION TO UI/UX
+Creation of great digital products did not just happen, there was a process. The process itself is a product, and what brings about the success of this products is understanding of Good UI and Good UX, Also the bad side of the two because it's only when you understand the good side and bad side of something before you are able differentiate between the two.
+A good UX must have some qualities which are: usability, usefulness, enjoyability and equitability. When a products have the otherwise of these qualities then it definitely has a bad UX. This brings us to the question of what is UX?, what is UI?
+UX Design which is user experience design is how a user feel about a design. while a UI design is the visual aspects of design. When a products has the two and accessibility is considered the products will definitely standouts among its competitors.

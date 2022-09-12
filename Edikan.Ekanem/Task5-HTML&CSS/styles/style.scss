@@ -19,7 +19,7 @@ section {
     padding: 5em 2em;
 }
 
-//Navbar
+// Navbar
 .navbar {
     background: white;
     padding: 1em;
@@ -91,7 +91,6 @@ section.home1 {
     padding: 0;
     position: relative;
     text-align: center;
-    font-weight: bolder;
     color: white;
 
     img {
@@ -215,7 +214,102 @@ section.home1 {
     }
 }
 
-//Footer
+// About 2
+.about2-img {
+    width: 100%;
+}
+
+// About 3
+.about3 {
+    background-color: #e8e8e8;
+
+    h1 {
+        font-size: 2em;
+        font-weight: bolder;
+    }
+}
+
+.about3-column {
+    background-color: white;
+    text-align: center;
+    padding: 5em auto;
+    width: 100%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+
+    i {
+        margin-top: 1em;
+        background: #f2e9e9;
+        padding: 1em;
+        border-radius: 2em;
+    }
+}
+
+.about3-button a {
+    background-color: #271630;
+    color: white;
+    font-weight: bold;
+    border-radius: .5em;
+    padding: 1em;
+    text-decoration: none;
+
+    &:hover {
+        background: white;
+        color: #271630;
+        border: 2px solid #271630;
+    }
+}
+
+// Contact 2
+.contact2 {
+    background-color: white;
+}
+
+.contact2-column {
+    text-align: center;
+    padding: 5em auto;
+    width: 100%;
+    margin: 0 auto 5em auto;
+    border: 1px solid;
+
+    i {
+        margin-top: 1em;
+        background: #ecd95c;
+        padding: 1em;
+        border-radius: 2em;
+    }
+}
+
+// Contact 3
+.input, .msg .area {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease;
+    resize: none;
+}
+
+.btn {
+    background-color: #271630;
+    color: white;
+    font-weight: bold;
+    border-radius: .5em;
+    padding: 1em;
+    text-decoration: none;
+
+    &:hover {
+        background: white;
+        color: #271630;
+        border: 2px solid #271630;
+    }
+}
+
+// Footer
 .footer {
     text-align: center;
     background-color: #271630;
@@ -258,7 +352,7 @@ section.home1 {
 }
 
 
-
+// Media queries
 @media screen and (min-width: 768px) {
 
     .mobile-menu,
@@ -316,7 +410,6 @@ section.home1 {
                 border: 2px solid black;
             }
         }
-
     }
 
     section.home1 {
@@ -327,6 +420,29 @@ section.home1 {
     .footer-column {
         width: 33.33%;
     }
+
+    .about3 .about3-row {
+        display: flex;
+
+        .about3-column {
+            margin: 5em .5em;
+        }
+    }
+
+        .login .input {
+            width: 48%;
+            float: left;
+            margin-right: 4%;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        .msg .area {
+            width: 100%;
+            height: 200px;
+        }
 }
 
 @media only screen and (min-width: 1080px) {
@@ -336,6 +452,10 @@ section.home1 {
 
     section {
         padding: 10em 4em;
+    }
+
+    section.home1 {
+        font-size: 40px;
     }
 
     .home2 .container {
@@ -357,9 +477,10 @@ section.home1 {
         justify-content: space-between;
         text-align: left;
 
-        .home4-img, img {
+        .home4-img,
+        img {
             width: 100%;
-           
+
         }
 
         .home4-right {
@@ -371,23 +492,22 @@ section.home1 {
         }
     }
 
-        .home5 .container {
-            display: flex;
-            justify-content: space-between;
-            text-align: left;
-    
-            .home5-img,
-            img {
-                width: 100%;
-    
-            }
-    
-            .home5-right {
-                margin: 0 3em 0 5em;
-    
-                h1 {
-                    font-size: 1.5em;
-                }
+    .home5 .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+
+        .home5-img,
+        img {
+            width: 100%;
+        }
+
+        .home5-right {
+            margin: 0 3em 0 5em;
+
+            h1 {
+                font-size: 1.5em;
             }
         }
+    }
 }

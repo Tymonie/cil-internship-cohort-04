@@ -78,14 +78,17 @@ body {
   color: #a3380d;
 }
 .heading_text{
-  font-size: 4rem;
+  font-size: 5rem;
   color: #edeff2;
   letter-spacing: .4rem;
   font-weight: 900;
+  animation-name: myMove;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
 }
 .heading_text_box{
   text-align: center;
-  padding: 25rem 0;
+  padding: 35rem 0;
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -93,17 +96,21 @@ body {
 .heading_text_box_home{
   background-image: url("sunset_rider.jpg");
 }
+span{
+  color: #edeff2;
+  font-size: 3.5rem;
+}
 .chat_icon{
   position: fixed;
   right: 3.5rem;
   bottom: 2.5rem;
   z-index: 100;
-  color: #1c0800;
+  color: #a10808;
   font-size: 5rem;
-  transition: .3s ease-in;
-}
-.chat_icon:hover{
-  transform: translateY(-.5rem);
+  animation-name: ChatBounce;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
 }
 .nav_flexbox{
   display: flex;
@@ -122,7 +129,7 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
 }
 .who_we_are_imageBox{
   width: 35%;
@@ -249,16 +256,14 @@ body {
 .shortcut_heading{
   margin-bottom: 1rem;
 }
-/* .about_heading_box{
-  color: #000;
-} */
+
 .about_heading_list{
   display: inline-block;
   list-style: none;
 }
 .about_heading_link{
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: #edeff2;
   transition: .3s ease-in;
 }
@@ -277,7 +282,7 @@ body {
   padding: 2rem;
   color: #edeff2;
   border-radius: 10px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   outline-offset: 6px;
 }
 .service:hover{
@@ -354,4 +359,25 @@ body {
 }
 .form_submit:hover{
   transform: scale(1.05);
+}
+@keyframes myMove{
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes ChatBounce{
+  0%{
+    transform: translateY(0);
+  }
+  70%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-.5rem);
+  }
 }

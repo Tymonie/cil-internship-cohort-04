@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+.outline-dark{
+    color: black;
+    -webkit-text-fill-color: #ffc107;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+.div-0{
+    padding: 0;
+    margin: 0;
+}
+.div-1 {
+    background-image: url(pexels-jose-mueses-1280560.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 500px;
+}
+.contact{
+    background-image: url(contacts.jpg) !important;
+}
+.div-1 p {
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 170px;
+}
+.div-2 {
+    display: flex;
+    flex-direction: row;
+}
+.div-2 img {
+    height: 100%;
+    width: 100%;
+}
+.div-3 {
+    background-color: antiquewhite;
+    color: black;
+}
+
+footer{
+    background-color: #280c37;
+}
+footer button {
+    margin-left: 41%;
+    margin-top: 10%;
+}
+li#nav-item{
+    margin-right:4px;
+}
+li a{
+    color: #333 !important;
+}
+li:hover{
+    background-color: #ffff00;
+    border-radius: 50px;
+}
+.selected {
+    background-color: #ffff00;
+    border-radius: 50px;
+}
+a:hover{
+    color: #db8709;
+    border-radius: 50px;
+}
+button.btn-dark:hover{
+    background-color: #333;
+}
+.float-chat{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: auto;
+    background-color: #000;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.float-chat i{
+    font-size: 25px; 
+    color:#fffff0;
+    position: relative;
+    top: 6px;
+    left: 7px;
+}
+.contact-tab{
+    text-align: center;
+    padding: 0 50px;
+}
+.contact-tab div.col{
+    border: 1px solid #eee;
+    margin: 5px 10px;
+    padding: 30px 0;
+    box-shadow: 0px 0px 3px #eee;
+}
+.contact-tab span{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #C0A01F;
+    position: relative;
+    margin: 0px 0 20px 0;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 0px 15px #fcfcfc;
+}
+.contact-tab span i{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.contact-tab p{
+    font-size: small;
+    color: #666;
+}
+.form-seg{
+    background-color: #F4F8FC;
+    padding: 30px 110px;
+    margin: 30px 0px;
+}
+
+.form-seg input{
+    margin: 10px 0;
+    height: 50px;
+    background-color: #fefefe;
+    border-radius: 0 !important;
+    position: relative;
+    padding-left: 40px;
+}
+
+.form-seg i{
+    position: absolute;
+    z-index: 90;
+    padding-top: 25px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.form-seg textarea {
+    margin: 10px 0;
+    height: 200px;
+    background-color: #fefefe;
+    resize: none;
+    border-radius: 0 !important;
+    padding-left: 40px;
+    padding-top: 12px;
+}

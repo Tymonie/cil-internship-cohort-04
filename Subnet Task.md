@@ -1,8 +1,9 @@
-Task 1. The NS IP address for Google, Facebook and Tesla are:
-Company Name	IP-Address
-Google	216.58.223.206
-Facebook	102.132.101.35
-Telsa	199.66.11.0/24
+# Task 1. The NS IP address for Google, Facebook and Tesla are:
+| Company Name | IP-Address     |
+|--------------|----------------|
+| Google	     | 216.58.223.206 |
+| Facebook	   | 102.132.101.35 |
+| Telsa	       | 199.66.11.0/24 |
 
 
 Task 2, Breakdown the following RFC 1918 IPv4 address range into exactly 4 subnets with no address left over.” 

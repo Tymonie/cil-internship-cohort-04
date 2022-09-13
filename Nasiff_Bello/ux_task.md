@@ -18,7 +18,7 @@ Working in a restaurant where customers must be treated as king of course they a
 Identify some key UX influencers and try to categorize them into one or two of the quadrants. Where do their strengths and interests appear to lie? Do they match a particular job title?
 
 ## Answer
-- **Ux writer**  [Jeff Gothelf](https://twitter.com/jboogie)  [Yael Levey](https://www.iamnotmypixels.com/) and [Sarah Doody](https://twitter.com/sarahdoody) All identify as a UX writer from thier various profiles
+- **Ux writer**  [Jeff Gothelf](https://twitter.com/jboogie), [Yael Levey](https://www.iamnotmypixels.com/) and [Sarah Doody](https://twitter.com/sarahdoody) All identify as a UX writer from thier various profile
 
 - **Ux developer** [Jared Spool](https://twitter.com/jmspool) and [jesse Showalter](https://twitter.com/iamjesseshow) Both identify as a UX developer
 
@@ -75,5 +75,5 @@ My hard and soft skill against UX design hard and soft skills
 The great thing about UX design is that there are no specific prerequisites—I’ve seen people from all walks of life and professional backgrounds become successful UX designers. I don’t even need to have any professional UX experience to start working on my portfolio!
 Still, becoming a UX designer requires dedication and hard work, and since I've so many things in common with the UX design soft and hard skill, if I'm dedicated and willing to put in the work using the blended structure program of study in no time I will become an authority in the field.
 
-From various UX/UI design job positions advertised from online platform like [indeed] (https://www.indeed.com), the average minimum junior salary is around 200000 naira which will be a great start and within six month I can start earning 10x that amount as a senior designer which will be a great leap for me.
+From various UX/UI design job positions advertised from online platform like [indeed](https://www.indeed.com), the average minimum junior salary is around 200000 naira which will be a great start and within six month I can start earning 10x that amount as a senior designer which will be a great leap for me.
 

@@ -22,7 +22,7 @@ Thus the new Subnet Mask would be **255.255.255.192**
 |   Host	     | 256	|128 | **64**   | 32	| 16	| 8	  | 4	  |  2	 |  1   |
 | Subnet Mask  |	/24	| /25|	**/26** |/27	| /28	| /29	|/30	| /31	 | /32  |
 
-From the subnetting table above, the needed column is highlighted in red. **4 means 4 subnets**, **64 means each subnet** (i.e new subnet) will have 64 total host IDs including network ID and broadcast ID.
+From the subnetting table above, the needed column is column 3. **4 means 4 subnets**, **64 means each subnet** (i.e new subnet) will have 64 total host IDs including network ID and broadcast ID.
 Finally, **/26** is the new subnet mask for these 4 subnets.
 Now let list all these 4 subnets information in a table.
 

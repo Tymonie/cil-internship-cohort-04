@@ -354,6 +354,18 @@ footer,
   color: white;
   filter: invert(100%);
 }
+.social-icons > a > img {
+  width: 20px;
+  object-fit: contain;
+  padding: 0;
+  height: 20px;
+  color: white;
+  /* filter: invert(100%); */
+}
+.social-icons > a {
+  color: white;
+  text-decoration: none;
+}
 .chat-icon {
   position: fixed;
   bottom: 10;

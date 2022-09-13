@@ -1,9 +1,3 @@
-# Heading 1
+# Set up a local IDE on your machine
 
--
--
-
-# Heading 2
-
--
--
+Done! Subsequent work will be done my vscode IDE.

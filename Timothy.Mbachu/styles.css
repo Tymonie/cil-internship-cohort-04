@@ -30,8 +30,6 @@ header {
   background-color: rgba(244, 245, 238, 0.958);
 }
 
-/* HOME PAGE  */
-
 .home__header {
   display: flex;
   position: fixed;

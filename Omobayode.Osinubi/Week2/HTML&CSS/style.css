@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Roboto+Condensed:wght@300;400&display=swap');
-
+@font-face {
+  font-family: Gilroy, sans-serif;
+  src: url("fonts/Gilroy/Gilroy-ExtraBold.otf");
+  src: url("fonts/Gilroy/Gilroy-Light.otf")
+}
+/* reset */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -7,37 +11,26 @@
 }
 body{
   background-color:white;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
-  font-size: 1.2em;
-  color: #545454;;
-  line-height: 1.5;
+  font-family: Gilroy, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
 }
-header{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
-  background-color:#e9ebec;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-h1,h2,h3{
-  font-family: 'Roboto Condensed', sans-serif;
-  color:#5e54d1;
-  font-weight: 400;
+/* headings Elements*/
+h1, h2, h3, h4, h5, h6{
+  font-family: Gilroy, sans-serif;
+  font-weight: 900;
 }
 h1{
-  font-size: 5em;
-  font-family: 'Clicker Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.2;
 }
 h2{
-  text-align: center;
-  font-size: 2.2em;
-  font-weight: 400;
+  font-size: 28px;
   margin-bottom: 30px;
+  font-weight: 900;
 }
 h3{
   font-size: 1.5em;
@@ -48,19 +41,68 @@ hr{width: 60px;
   margin: 0 auto;
   color:#b6b6b6;
 }
+/* header*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background-color:#ffffff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 .container{
   max-width: 100%;
   margin: 0 auto;
 }
 .layout{
-  padding: 100px 20%;
-}
-.logo{
-  margin-right: auto;
+  padding: 50px 10%;
 }
 .logo>img{
-  width: 100px;
+  width: 70px;
 }
+.links ul{
+  display: flex;
+  list-style: none;
+}
+.links a{
+  color: #80868f;
+  text-decoration: none;
+}
+.links li{
+  padding: 10px;
+  position: relative;
+}
+#active{
+  color: black
+}
+li, a, .cta{
+  font-size: 14px;
+  font-weight: 500;
+}
+.links li a{
+  transition: all 0.5s ease; 
+}
+.links li a:hover{
+  color: black;
+}
+.cta{
+  background-color:black;
+  padding: 10px 26px;
+  border-radius: 25px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  font-family: Gilroy, sans-serif;
+  cursor: pointer;
+}
+.cta:hover{
+  background-color:rgba(0, 0, 0, 0.8);
+  transition: all 0.9s ease;
+}
+/* hand burger */
 .toggle-button{
   position: absolute;
   top: 3rem;
@@ -78,179 +120,199 @@ hr{width: 60px;
   background-color: #5e54d1;
   border-radius: 10px;
 }
-.links ul{
-  display: flex;
-  list-style: none;
-}
-.links a{
-  text-decoration: none;
-}
-.links li{
-  padding: 10px;
-  position: relative;
-}
-#active{
-  color: rgb(2, 2, 78);
-  text-decoration: underline;
-}
-li, a, .cta{
-  font-size: 16px;
-  font-weight: 500;
-}
-.links li a{
-  transition: all 0.5s ease; 
-}
-.links li a:hover{
-  color: black;
-}
-.cta{
-  text-decoration: none;
-  background-color:#5e54d1;
+/* banner */
+.banner{
   color: white;
-  padding: 5px 25px;
-  border-radius: 8px;
-  margin-left: 20px;
-  border: none;
-}
-.cta:hover{
-  background-color: rgb(0, 0, 160);
-  transition: all 0.9s ease;
-}
-.intro{
-  text-align: center;
-  background-color:#e9ebec;
-}
-.about{
-  text-align: center;
- 
-}
-.about>img{
-  width: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-.about>p{
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.5;
-}
-.work>div{
+  min-height: 100vh;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
-}
-.work>div>img{
-  max-width: 300px;
-  border-radius: 25px;
-}
-.work>div>div{
-  max-width: 380px;
-}
-.help{
-  text-align: center;
-}
-.env{
-  margin-right: 10px;
-}
-button>a{
-  text-decoration: none;
-}
-button {
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
   position: relative;
-  margin: 30px auto 0;
-  padding: 12px 18px;
-  transition: all 0.2s ease;
-  border: none;
-  background: none;
- }
-button:before {
+}
+.banner::after {
   content: "";
-  position: absolute;
+  background-image: url(./images/background1.png);
+  background-position: center -10px;
+  background-size: cover;
+  background-repeat:no-repeat;
   top: 0;
   left: 0;
-  display: block;
-  border-radius: 50px;
-  background: #e9ebec;
-  width: 45px;
-  height: 45px;
-  transition: all 0.3s ease;
- }
-button span {
-  position: relative;
-  font-family: 'Montserrat', sans-serif;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.banner h1{
+  display: flex;
+  align-items: center;
+  max-width: 58%;
+  color:#ffffff;
+}
+.home-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.home-about h2{
+  margin-bottom: 20px;
+  color: #0f0821;
+  line-height: 42px;
+}
+.home-about p{
+  margin-bottom: 32px;
+  color: #808a92;
   font-size: 18px;
+  line-height: 30px;
+}
+.home-about a{
+  font-size: 16px;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  color: #234567;
- }
-button svg {
-  position: relative;
+  color: #333;
+}
+.home-about>img{
+  width: 450px;
+}
+.growth{
+  background-color: #fffbf7;
+}
+.growth>h1{
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+.growth-parent-box{
+  display: flex;
+  justify-content: space-around;
+}
+.growth-box>h1{
+  margin-bottom: 20px;
+}
+.growth-box>p{
+  text-align: center;
+  font-size: 16px;
+  color: #84898c;
+}
+#close-h2{
+  line-height: 1;
+}
+.list{
+  display: flex;
+  align-items: flex-start;
+}
+.check{
+  margin-right: 10px;
+  width: 30px;
+}
+.list p{
+  line-height: 1.2;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* About Page */
+.banner>div{
+  text-align: center;
+}
+.about-banner::after {
+  content: "";
+  background-image: url(./images/Max-img2.png);
+  background-position: center -10px;
+  background-size: cover;
+  background-repeat:no-repeat;
   top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #234567;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
- }
-button:hover:before {
-  width: 100%;
-  background: #e9ebec;
-
- }
-button:hover svg {
-  transform: translateX(0);
- }
-button:active {
-  transform: scale(0.95);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
-footer{ 
-  background-color:#e9ebec;
-  padding: 50px 0 20px;
+.about{
+  display: flex;
+  gap: 40px;
+}
+.about>img{
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.1);
+}
+.about h4{
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.about p{
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #54515c;
+}
+.services{
   text-align: center;
-} 
-footer>a{
-  margin: 0 10px;
+}
+/* footer */
+footer{
+  background-color:#2f2544;
+  color: white;
+}
+.max-champ{
+  padding: 50px 0;
+  text-align: center;
+  margin: auto;
+}
+.max-champ h1{
+  max-width: 88%;
+  font-size: 40px;
+  margin: 20px auto 40px;
+  color:#ffffff;
+}
+.cta2{
+  background-color: #ffffff;
+  font-size: 12px;
+  color: black;
+  padding: 16px 32px;
+}
+.cta2:hover{
+  background-color:rgba(255, 255, 255, 0.8);
+  transition: all 0.9s ease;
+}
+.foot{ 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.foot h4{
+ margin-bottom: 26px;
+ font-size: 18px;
+ line-height: 18px;
+}
+.foot>div>a{
+  display: block;
   text-decoration: none;
-  color: #5e54d1;
 }
-.copy{
-  font-size: 0.75rem;
-  padding: 10px 0;
+.foot a{
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Gilroy, sans-serif;
 }
-
-/* Work */
-.project{
-  text-align: center;
-  background-color: #f5f3f8;
-}
-.project>h2, .project2>h2, .project3>h2{
+#success{
   margin-bottom: 0;
 }
-.project>h2{
-  color: rgb(52, 49, 49);
+.foot P{
+  font-size: 14px;
+  line-height: 22px;
 }
-.project2{
-  color:white;
-  text-align: center;
-  background-color: black;
+.foot P, .social{
+  margin-bottom: 20px;
 }
-.project2>h2, .project2>h3, .project3>h2, .project3>h3{
+.social i{
+  margin: 0 5px;
+  font-size: 20px;
+}
+.foot h4, .foot a{
   color: white;
-}
-.project3{
-  text-align: center;
-  background-color: #e8b387;
-  color: white;
-}
-/* Note */
-#think{
-  margin-bottom: 0;
 }
 
+/* Responsiveness (Mobile View) */
 @media (max-width:800px){
   /* header */
   .toggle-button{

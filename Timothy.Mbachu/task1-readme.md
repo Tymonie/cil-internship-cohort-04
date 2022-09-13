@@ -1,6 +1,8 @@
-# Describe any layered process similar to the OSI model
+# OSI Model task
 
-## TCP/IP
+## Describe any layered process similar to the OSI model
+
+### TCP/IP
 
 TCP/IP stands for Transmission Control Protocol/Internet Protocol and is a suite of communication protocols used to interconnect network devices on the internet.
 

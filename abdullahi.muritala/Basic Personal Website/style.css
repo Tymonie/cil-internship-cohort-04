@@ -460,7 +460,7 @@ footer li a:hover {
     display: block;
   }
 }
-
+/* To toggle the display of navbar on mobile */
 .showMenu {
   display: block;
 }

@@ -16,11 +16,11 @@
 The Default Subnet Mask for this IP address is **255.0.0.0**
 However, in order to create 4 Subnets we would need to borrow more bits from the host ID. 
 Thus the new Subnet Mask would be **255.255.255.192**
-Table 1: Subnetting Table.
-| Subnet	  | 1	  | 2	 |   **4**  | 8   |	16	| 32	| 64	| 128	 | 256  |
-|-----------|-----|----|----------|-----|-----|-----|-----|------|------|
-|Host	      |256	|128 | **64**   | 32	| 16	| 8	  | 4	  |  2	 |  1   |
-|Subnet Mask|	/24	| /25|	**/26** |/27	| /28	| /29	|/30	| /31	 | /32  |
+###### Table 1: Subnetting Table.
+| Subnet	     | 1	  | 2	 |   **4**  | 8   |	16	| 32	| 64	| 128	 | 256  |
+|--------------|------|----|----------|-----|-----|-----|-----|------|------|
+|   Host	     | 256	|128 | **64**   | 32	| 16	| 8	  | 4	  |  2	 |  1   |
+| Subnet Mask  |	/24	| /25|	**/26** |/27	| /28	| /29	|/30	| /31	 | /32  |
 
 From the subnetting table above, the needed column is highlighted in red. **4 means 4 subnets**, **64 means each subnet** (i.e new subnet) will have 64 total host IDs including network ID and broadcast ID.
 Finally, **/26** is the new subnet mask for these 4 subnets.

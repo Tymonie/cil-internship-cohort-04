@@ -26,11 +26,7 @@ NS stands for ‘nameserver’, and the nameserver record indicates which DNS se
         Addresses: 
         23.201.26.71,
         184.30.18.203,
-        96.16.108.43,
-        23.9.66.10,
-        104.119.104.74,
-        184.85.228.70,
-        184.50.204.169
+        96.16.108.43
 
 ## **Question B**
 ### Breakdown the following RFC 1918 IPv4 address range into exactly 4 subnetworks with no address left over.
@@ -74,6 +70,16 @@ Class A, B, and C networks have natural masks, or default subnet masks:
 - Class C: 255.255.255.0
 
 Subnetting divides one network into smaller networks.
+
+# **WHY SUBNETTING?**
+
+Organisations every now and then run into the need to split the network coming from the ISP (Internet Service Provider) into smaller parts, i.e., **sub networks** to service the different departments and hosts under their wing, hence the need for subnetting.
+
+In subnetting, the most important numbers and formulas include:
+
+- 2^n - 2 (where n is the number of binary zeros in the subnet mask). This formula calculates the number of hosts per subnet mask.
+
+- The number of binary 1s is the next most important, if not the most important to consider. The number of binary 1s in the host ID part of an IP address is mapped against the chart below to find the number of subnets for a particular IP address with a specific subnet mask.
 
 **Subneting Chart Table**
 
@@ -120,6 +126,6 @@ Subnetting divides one network into smaller networks.
 | 192.168.0.192 | 192.168.0.193 – 192.168.0.254 | 192.168.0.255 |
 
 **NOTE**
-- We get the Network ID by adding 64 to its previous one.
-- The last Host ID is reserved for its Broadcast Id. It can also be said that it is the next subnets Network ID minus 1.
-- A subnets Host ID Range is any ID between its Network ID and Broadcast ID.
+- The first IP Address is reserved as the network ID for a particular subnet.
+- The last IP Address in a subnet is used as the broadcast ID. This goes on the switch.
+- Dividing a particular class of IP Address into subnets takes a simiar format irrespective of the IP Address class as the octets in an IP Address are all multiples of 2.

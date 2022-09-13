@@ -96,7 +96,9 @@ nav > ul > li > a {
   list-style: none;
   text-decoration: none;
 }
-body > main {
+.home__main,
+.about__main,
+.contact__main {
   margin-top: 90px;
   width: 100vw;
   /* padding-right: 110px;
@@ -755,4 +757,37 @@ p {
   width: 2vw;
   height: 4vh;
   filter: invert(100%);
+}
+
+/* ROOT PAGE FOR ALL TASKS  */
+
+.root__main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-top: 10vh;
+  background-color: rgba(233, 231, 229, 0.952);
+}
+.root__index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.root__index button {
+  background-color: rgb(84, 142, 242);
+  border-radius: 5px;
+  height: 5vh;
+  width: 12vw;
+  font-size: 1.2rem;
+  margin-bottom: 1vh;
+}
+.root__index > p {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 3vh;
 }

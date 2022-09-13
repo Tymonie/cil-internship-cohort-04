@@ -363,7 +363,7 @@ span{
 @keyframes myMove{
   0% {
     opacity: 0;
-    transform: translateX(10rem);
+    transform: translateX(30rem);
   }
   100%{
     opacity: 1;
@@ -379,5 +379,6 @@ span{
   }
   100%{
     transform: translateY(-.5rem);
+    color: #fcf9dc;
   }
 }

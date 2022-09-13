@@ -25,15 +25,6 @@ Ads are constantly annoying since they appear when I least expect them. The majo
 
 # Fundamentals of UI and UX
 
-### Table of Contents: 
-	1.	Introduction
-	2.	What is UI Design?
-	3.	Why is UI design important? 
-	4.	What is UX Design? 
-	5.	Why is UX design important? 
-	6.	Difference between UI and UX design 
-	7.	Conclusion 
-### Introduction
 UI design and UX design are two of the most often confused and conflated terms in web and app design. They’re usually placed together in a single term and viewed from the surface they seem to be describing the same thing. It’s often hard to find solid descriptions of the two that don’t descend too far into jargon. 
 The truth is, UX and UI are two sides of the same coin.
 Think of it this way: UX is all about how a product feels. UI is all about how a product looks.

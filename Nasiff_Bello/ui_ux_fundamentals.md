@@ -1,4 +1,4 @@
-# **Understanding UX/UI Design fundamentals**
+# **Understanding UI/UX Design fundamentals**
 
 # **Introduction** 
 Imagine walking through a store without proper shelf label searching for items, after hours of searching you couldn't find anyone or anything to point you to the direction of those items on your grossry list, how will you feel? frusrated, definately YES. Again, imagine walking through another store with proper shelf label and personel who are always there to assist, how will you feel? elated, definately YES. which of the above stores will you frequent more? definately the second one. The store interface and the experience of the customer is what developers refers to as User Interface (UI) and User Experience (UX) Design. 
@@ -8,7 +8,7 @@ Imagine walking through a store without proper shelf label searching for items, 
 
 **UX Design** is the full experience that delight users with their effectiveness from a user's first contact to the last of either physical or digital products. It's a structural design solutions for pain points that users encounter anywhere along their journey with the product. 
 
-# **What are UX/UI fundamentals**
+# **What are UI/UX fundamentals**
 ## **What is the process of UX?**
 UX has 3 key phases: discovery, ideation, and validation. However, UX design is cyclical and you will often need to repeat certain steps and even the entire process multiple
 times. The final outcome will be a set of low-resolution wireframes (a draft of the function and structure of a product).

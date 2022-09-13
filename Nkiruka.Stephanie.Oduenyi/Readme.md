@@ -4,4 +4,6 @@
 * second bullet point
 * third bullet point
 * fourth bullet point
- and we are done
+
+here is a paragraph
+> and we are done

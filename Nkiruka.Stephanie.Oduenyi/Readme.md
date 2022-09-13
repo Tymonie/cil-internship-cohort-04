@@ -6,4 +6,3 @@
 * fourth bullet point
 
 here is a paragraph
-> and we are done

@@ -5,4 +5,4 @@
 * Bullet point 4
 
 ## SUB TITLE
-This is a sample Readme file
+This is a sample Readme file.

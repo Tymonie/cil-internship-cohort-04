@@ -29,14 +29,18 @@ Resized_Image_name = New Image name
 
 ### For Example 
 
-Image_Resizer("/Users/User/Desktop","Ball",40,40,"Resized_Ball")
+To resize a picture named ball to a size of 40px by 40px, which is located on Desktop
 
-File_path = /Users/User/Desktop
+File_path = "/Users/User/Desktop"
 
-Image_name = Ball
+Image_name = "Ball"
 
 Base_width = 40
 
 Base_height = 40
 
-Resized_Image_name = Resized_Ball
+Resized_Image_name = "Resized_Ball"
+
+### The function becomes
+
+Image_Resizer("/Users/User/Desktop","Ball",40,40,"Resized_Ball")

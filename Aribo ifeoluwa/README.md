@@ -9,5 +9,3 @@ These domains are:
 * Business Analysis
 * Cloud Engineering
 * Front-end developer and so on
-
-Feel free to make corrections

@@ -1,5 +1,4 @@
-Link to my deployed HTML/CSS TASK and Javascript task. ( [https://mobolaji-github.github.io/cil-internship-cohort-04/](https://mobolaji-github.github.io/cil-internship-cohort-04/) )
-
+Link to my deployed HTML/CSS TASK.     <a href="https://mobolaji-github.github.io/cil-internship-cohort-04/" target="_blank">https://mobolaji-github.github.io/cil-internship-cohort-04/</a>
 
 Task 1 : OSI Model
 

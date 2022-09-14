@@ -77,4 +77,3 @@ Some examples of this would be defining color palettes and typography, creating 
 
 UX is more to do with the actual functionality and content of a website or app, while UI is the look and feel and how people interact with it.
 
-

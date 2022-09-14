@@ -1,1 +1,1 @@
-### Local IDE has been setup on your laptop
+### Local IDE has been setup on my laptop

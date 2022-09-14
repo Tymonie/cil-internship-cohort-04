@@ -4,10 +4,10 @@
 TCP/IP stands for Transmission Control Protocol/Internet Protocol and is a suite of communication protocols used to interconnect network devices on the internet. TCP/IP is also used as a communications protocol in a private computer network (an intranet or extranet).
 
 # How does TCP/IP work?
-TCP/IP uses the client-server model of communication in which a user or machine (a client) is provided a service, like sending a webpage, by another computer (a server) in the network.
+## TCP/IP uses the client-server model of communication in which a user or machine (a client) is provided a service, like sending a webpage, by another computer (a server) in the network.
 
 # The 4 layers of the TCP/IP model
-TCP/IP functionality is divided into four layers, each of which includes specific protocols:
+## TCP/IP functionality is divided into four layers, each of which includes specific protocols:
 ### 1. Network Access Layer –
 This layer corresponds to the combination of Data Link Layer and Physical Layer of the OSI model. It looks out for hardware addressing and the protocols present in this layer allows for the physical transmission of data.
 

@@ -32,10 +32,6 @@ h2{
   margin-bottom: 30px;
   font-weight: 900;
 }
-h3{
-  font-size: 1.5em;
-  margin-bottom: 20px;
-}
 hr{width: 60px;
   border-style: dashed;
   margin: 0 auto;
@@ -143,7 +139,7 @@ li, a, .cta{
   position: absolute;
   z-index: -1;   
 }
-.banner h1{
+.banner-heading{
   display: flex;
   align-items: center;
   max-width: 58%;
@@ -246,7 +242,108 @@ li, a, .cta{
 }
 .services{
   text-align: center;
+  background-color: #f4f8fc;
 }
+.services>h4{
+  font-size: 12px;
+  color:#686f7b; 
+}
+.special-heading{
+  margin: 15px 0 40px;
+  color:#253246; 
+}
+.special-heading>span{
+  display: inline-block;
+  background-color: #448cf0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-left: 2px;
+}
+.services>div, .contact>div{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.service-box{
+  width: 310px;
+}
+.service-box, .contact-box{
+  background-color: white;
+  padding: 40px 50px;
+}
+.service-box i{
+  display: inline-block;
+  font-size: 30px;
+  background-color: #fffbf7;
+  padding: 30px;
+  border-radius: 50%;
+}
+.service-box h3{
+  font-size: 15px;
+}
+.service-box h3, .contact-box h3{
+ color: #404d5e;
+  margin-top: 30px;
+}
+.cta3{
+  display: inline-block;
+  background-color: #448cf0;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 15px 25px;
+}
+/* Contact Page */
+.contact-box{
+  width: 300px;
+  border: 1px solid #d4d1de;
+}
+.contact-box i{
+  display: inline-block;
+  font-size: 30px;
+  background-color: #c0a01f;
+  padding: 30px;
+  border: 7px solid white;
+  box-shadow: 0 0 10px 10px #f6f8ff;
+  border-radius: 50%;
+  color: white;
+}
+.contact-box p{
+  color: #8d8585;
+   margin-top: 10px;
+   font-size: 11px;
+   font-weight: 700;
+ }
+ .contact-form{
+  background-color: #f4f8fc;
+  text-align: center;
+  padding: 50px 0;
+ }
+ .contact-form i{
+  position: relative;
+  left: 40px;
+ }
+ .message-icon{
+  bottom:160px;
+ }
+ input, textarea{
+  padding: 20px 60px;
+  border: none;
+  color: #454444;
+  font-weight: 700;
+ }
+ input{
+  margin: 0 10px 30px;
+  width: 38%;
+ }
+ textarea{
+  width: 80%;
+ }
+ .submit{
+ width: 100px;
+ }
 /* footer */
 footer{
   background-color:#2f2544;

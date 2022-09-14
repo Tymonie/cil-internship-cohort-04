@@ -1,5 +1,5 @@
 
-# Question 1. What are the NS IP addresses for Google, Facebook and Tesla? 
+## Question 1. What are the NS IP addresses for Google, Facebook and Tesla? 
 
 
 NS stands for ‘nameserver,’ and the nameserver record indicates which DNS server is authoritative for that domain (i.e. which server contains the actual DNS records).
@@ -22,7 +22,7 @@ tesla.com | 184.50.204.169 |  184.30.18.203
 
 ---
 
-## For 10.10.10.0
+### For 10.10.10.0
 
 This is an IPv4 class A (range of 0-127)
 
@@ -47,7 +47,7 @@ S/NO| Network ID | Broadcast ID | Useable IP Address
 
 ---
 
-## For 192.168.0.0
+### For 192.168.0.0
 
 This is an IPv4 class C (range of 192-223)
 
@@ -72,7 +72,7 @@ S/NO| Network ID | Broadcast ID | Useable IP Address
 
 ---
 
-## For 172.168.1.0
+### For 172.168.1.0
 
 This is an IPv4 class B (range of 128-191)
 

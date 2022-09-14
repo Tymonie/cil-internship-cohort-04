@@ -101,8 +101,8 @@ li, a, .cta{
 /* hand burger */
 .toggle-button{
   position: absolute;
-  top: 3rem;
-  right: 2rem;
+  top: 1.5rem;
+  right: 10%;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -438,25 +438,37 @@ footer{
   }
   /* home */
   h1{
-    font-size: 4em;
-    line-height: 0.6;
+    font-size: 3em;
+    line-height: 1;
     margin-bottom: 35px;
   }
-  .work>div{
+  .banner-heading{
+    max-width: 100%;
+  }
+  .home-about>img, .about>img{
+    width: 300px;
+  }
+  .home-about, .about{
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
   }
-  .layout{
-    padding: 100px 10%;
+  /* About */
+  .services>div, .contact>div{
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
   }
-  .up-img{
-    margin-bottom: 20px;
+  .about h2{
+    line-height: 1;
   }
-  .down-img{
-    margin-top: 20px;
+  .special-heading{
+    font-size: 2.2rem;
   }
-  /* work */
-  .project-img{
-    max-width: 300px;
+  
+  /* footer */
+  .foot{ 
+    flex-direction: column;
+    gap: 30px;
   }
+  
 }

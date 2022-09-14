@@ -17,7 +17,9 @@ function getProfile() {
                             <li> Phone: ${user.phone} </li>
                             <li> Website: ${user.website} </li>
                             <li> Company Name: ${user.company.name} </li>
-                             </ul>`
+                             </ul>
+                             <hr>
+                             `
             }
 
             );

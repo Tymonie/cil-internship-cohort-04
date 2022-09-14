@@ -6,7 +6,7 @@ function getProfile() {
         .then(function (response) { return (response.json()) })
         .then(function (data) {
             console.log(data);
-            let output = '<h2>Users Profile</h2>';
+            let output = `<h2>Users Profile</h2>`;
             data.forEach(function (user) {
                 output += `
                             <ul>

@@ -1,4 +1,4 @@
-Tuesday Assignment
+TuesSubnetting day Assignment
 
 # What is the NS IP addresses for Google, Facebook, and Tesla?
 ### Via https://www.gaijin.at/en/tools/nameserver-lookup#result 

@@ -51,9 +51,7 @@ This stage often happens recursively throughout the defining, prototyping, and e
 But skilled UX designers also know how to come up with ideas in systematic ways. There are also a wide variety of design thinking exercises that help UX designers (and the people they collaborate with) to generate innovative and delightful solutions to design problems.
 
 ### Prototype
-This is the phase that most people think of when it comes to UX design as it involves the actual creation of the product or service. 
-Designers create mockups and prototypes to initially test their ideas to make sure they’ll actually work as intended.
-Afterwards, UX designers create wireframes to ensure that the ideas are translated well from design to development.
+This is the phase that most people think of when it comes to UX design as it involves the actual creation of the product or service. Designers create mockups and prototypes to initially test their ideas to make sure they’ll actually work as intended. Afterwards, UX designers create wireframes to ensure that the ideas are translated well from design to development.
 
 ### Test
 No UX design process is complete without testing your design solutions to ensure that they’ll actually work the way you intend! So, now that a design has been created, it’s time to test that design against actual users with usability testing. Designers will observe their users interact with their designs and ask them to complete certain tasks. They take note of the user’s emotions, body language, statements, frustrations, and difficulties they have when using the product. After testing, designers compile the data, analyze it, and determine what improvements need to be made.

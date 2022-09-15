@@ -23,6 +23,7 @@ Customer collaboration over contract negotiation
 Responding to change over following a plan
 
 ## Task On Careerfoundry
+
 Common Website
 02tvseries.com
 9jarocks.com
@@ -44,7 +45,8 @@ UX Design is a term used to describe the overall experience a user has when inte
 What a UX designer does is to make sure every user’s interaction or experience with a product or service goes smoothly. And they perform their duties through user research, user research analysis, preparing a user persona & user flows, wireframes & prototype, and user testing.
 
 UX is different from other design fields  because other design fields focus on visual elements and visual design. While UX designers take a broader perspective by focusing on the entire interaction between a user and a product.
-Gloria Lo Portfolio
+
+### Gloria Lo Portfolio
 Gloria has nailed her designer introduction with a three-tiered approach. First, she treats us to a bold, eye-catching headline that describes her in terms of her favorite activities.
 Gloria was able to convey the most important information while managing the delicate art of brevity. That is very brave of her and very professional.
 
@@ -53,7 +55,7 @@ Gloria's portfolio also features a comprehensive “About” page, complete with
 Gloria can still work more on her  portfolio homepage since it will be the first place the users will visit. She can move content to make it more and more explanatory.
 Link to her portfolio:https://www.glorialo.design/ 
 
-Olivia Truong Portfolio
+### Olivia Truong Portfolio
 Olivia’s portfolio demonstrated how she identifies and tackles a variety of user problems. Olivia’s portfolio does a great job of this.
 
 Gloria’s portfolio took the problem personal and empathy-driven, which is a critical part of being an UX Designer.
@@ -62,12 +64,12 @@ UX designers are problem-solvers, so Olivia’s portfolio did a good job reflect
 
 Olivia can talk more about herself and put some projects she previously worked on, the problems she faced and how she tackled them.
 
-Soft Skills
+### Soft Skills
 Collaboration
 Empathy
 Communication
 
-Technical skills
+### Technical skills
 Research
 Visual Communication
 Information Architecture
@@ -79,3 +81,15 @@ online mode of learning
 Prototyping
 Online mode of learning
 3-4 hours/week
+
+## Final Test
+1. Scamper
+2. Low-fidelity prototypes are the best option because they’re cheaper to create.
+3. HMW statements
+4. Follows a set order every time.
+5. These are all must-have skills
+6. Testing is an opportunity to ensure that your designs actually solve problems for users.
+7. Excellent, up-to-date curriculum
+8. Diary studies
+9. UX design is the process of designing great digital product experiences that work well for the people who use those products.
+10. Empathize, define, ideate, prototype, and test

@@ -153,7 +153,6 @@ nav {
 }
 
 img {
-
     max-width: 100%;
     height: auto;
     margin: 5px;
@@ -288,6 +287,7 @@ button.btn-dark:hover {
     margin: 0px 0 20px 0;
     border: 5px solid #fff;
     box-shadow: 0px 0px 0px 15px #fcfcfc;
+    cursor: pointer;
 }
 
 .contact-tab span i {
@@ -313,7 +313,7 @@ button.btn-dark:hover {
 .prof-seg span {
     background-color: #FFF8FB !important;
     border: none;
-    box-shadow: none;
+    box-shadow: 0px 5px 15px #eee;
 }
 
 .prof-seg span i {
@@ -371,7 +371,7 @@ button.btn-dark:hover {
 
 p {
     color: #253246 !important;
-    font-size: 1.3vw !important;
+    font-size: 1.2vw !important;
     line-height: 1.8em;
 }
 
@@ -403,6 +403,7 @@ h5 {
 
 h1 {
     font-size: 35px;
+    font-weight: bolder;
     color: #253246;
     font-family: "Lato", sans-serif !important;
 }
@@ -426,8 +427,11 @@ h6 {
 
 footer p {
     color: #fff !important;
-    font-size: 1.2vw !important;
+    font-size: 2vh !important;
     margin: 1vw !important;
+}
+footer h1{
+    font-size: 3.5vw !important;
 }
 
 p.social i {
@@ -459,6 +463,9 @@ footer h5 {
 
 .center {
     text-align: center;
+}
+h5.text-wt{
+    font-size: 2.8vh;
 }
 
 .text-wt {

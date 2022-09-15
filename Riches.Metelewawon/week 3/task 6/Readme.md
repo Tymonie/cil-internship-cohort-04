@@ -16,9 +16,9 @@ it encourages team to learn through experiences, self-organize while working on 
 
 2. Developer Growth: one of the benefit of scrum is it enables a team to hold a periodic hacking sprint. this is when developers team up or work individually on a piece of code that is related to the overall product but that isnt directly tied to a product feature. this sprint allows the team to brainstorm and implement new concepts learn code or text techniques
 
-3) Flexibility to allow quick product changes: the capability to quickly adapt to changes in product definition and to deliver to those changes within a few iterations is a key benefit to scrum. to enable the adaption, the scrum teams creates or modifies backlog items to align with the needed product changes. the team then grooms - or re-grooms these items to ensure scope, clarity and sizing
+3. Flexibility to allow quick product changes: the capability to quickly adapt to changes in product definition and to deliver to those changes within a few iterations is a key benefit to scrum. to enable the adaption, the scrum teams creates or modifies backlog items to align with the needed product changes. the team then grooms - or re-grooms these items to ensure scope, clarity and sizing
 
-4) Reduced Risk: scrum provides the opportunity tot recognize and mistigate risk early in the process through cross functional teams , sustainable and predictable delivery pace, continuous feedback and good practices
+4. Reduced Risk: scrum provides the opportunity tot recognize and mistigate risk early in the process through cross functional teams , sustainable and predictable delivery pace, continuous feedback and good practices
 
 ### QUESTION 2:
 

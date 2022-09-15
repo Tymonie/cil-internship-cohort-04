@@ -1,9 +1,9 @@
 ## Simple JS to call the backend API
 
+### Task Links
 
-Task [Live link](https://app.netlify.com/sites/8-javascript)
-
-[Source code]
+- Javascrip App [Live link](https://8-javascript.netlify.app)
+- App [Source code](8-Javascript/)
 
 ### ALL USERS
 

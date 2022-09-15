@@ -12,7 +12,7 @@ Then document your findings, submit your findings as a markdown file in your stu
    - [Nairaland](https://www.nairaland.com/) : It is quite difficult for users with no technical skills (HTML) to upload contents and comments.
 
 2. For today’s task, we want to turn the focus back to you. Think about the UX design process — do any of the functions or tasks that we discussed resemble anything you do in your current job? If so, write down what they are and how they’re similar to the UX design process.
-   - ** User Research:** Every process of writing codes begins with a research to identify a problem and work towards it.
+   - **User Research:** Every process of writing codes begins with a research to identify a problem and work towards it.
    - **User Testing:** After developing an app it is quite a norm to test out the app to identify bugs and flaws before it gets to production phase.
 
 3. Your mission today is to identify some key UX influencers and try to categorize them into one or two of the quadrants. Where do their strengths and interests appear to lie? Do they match a particular job title?
@@ -26,10 +26,12 @@ What is UX design?, What does a UX designer actually do?, How is UX design diffe
     - As a UX designer, I make  create products that provide meaningful and relevant experiences to users and  make a product or service usable, enjoyable, and accessible.
     
 5. For today’s tutorial, we’re sending you on a mission for inspiration! Browse the internet and find two or three portfolios that catch your eye. For each portfolio, identify three things that you think the designer does well, and why. At the same time, look out for some aspects that could be improved. Pay attention to the “About me” sections, the overall usability of each portfolio, and most importantly, how they present their case studies. Do they document their process thoroughly? How do they demonstrate their approach to problem solving? How could they present a stronger narrative?
-    [Brittany Chiang](https://www.brittanychiang.com/) I really like the simplicity and coolness because of the theme and fonts and also the color choice.
-    [Sarah Chang](https://www.brittanychiang.com/) It's well detailed and explainatory.  
+ - [Brittany Chiang](https://www.brittanychiang.com/) I really like the simplicity and coolness because of the theme and fonts and also the color choice.
+ - [Sarah Chang](https://www.brittanychiang.com/) It's well detailed and explainatory.  
     
 6. [Test result](www.careerfoundry.com/en/tutorials/ux-design-process-for-beginners/final-test-complete)
+
+
 
 
 

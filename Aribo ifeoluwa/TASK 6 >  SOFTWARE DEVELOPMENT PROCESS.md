@@ -7,7 +7,7 @@ Scrum necessitates the presence of a Scrum Master in order to foster an environm
 1. A Product Owner adds work to a Product Backlog for a complex problem.
 2. During a Sprint, the Scrum Team converts a selection of work into a value increment.
 3. The Scrum Team and its stakeholders review the results and make adjustments for the following Sprint.
-4. Repeat
+4. Repeat.
 
 Benefits of Scrum methodology
 1. __Quality products__ - The Scrum process incorporates feedback and continuous improvement during the Sprint retrospective. 

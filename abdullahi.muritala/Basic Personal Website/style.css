@@ -262,6 +262,10 @@ footer li a:hover {
   color: #448cf0;
 }
 
+.services-section {
+  margin-bottom: 30px;
+}
+
 .services-section img {
   max-width: 25%;
 }

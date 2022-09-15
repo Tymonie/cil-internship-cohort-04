@@ -57,3 +57,9 @@ c) Defects that are fewer and less costly.
 d) Projects failing early and quickly when it’s less costly.
 * Reviewing each sprint before the team moves on to the next sprint spreads testing throughout development.
 * Project focus and goals can change and be adjusted with evolving business goals.
+
+## From the Agile Manifesto
+* Individuals and interactions over process tools.
+* Working software over comprehensive documentation.
+* Customer collaboration over contract negotiation.
+* Responding to change over following a plan.

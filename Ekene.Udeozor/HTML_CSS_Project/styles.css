@@ -33,13 +33,12 @@ body {
   line-height: 1.7;
   box-sizing: border-box;
 }
+/* Styling the navigation and header section */
 .home_heading{
   height: 100vh;
   position: relative;
 }
-.navigation{
 
-}
 .navigation_box{
   padding: 2rem 25rem;
   position: fixed;
@@ -67,16 +66,6 @@ body {
   color: #a3380d;
   font-weight: 900;
 }
-.register{
-  text-decoration: none;
-  color: #fff;
-  background-color: #000;
-  padding: 1rem;
-  border-radius: 20px;
-}
-.register:hover{
-  color: #a3380d;
-}
 .heading_text{
   font-size: 5rem;
   color: #edeff2;
@@ -94,12 +83,32 @@ body {
   height: 100%;
 }
 .heading_text_box_home{
-  background-image: url("sunset_rider.jpg");
+  background-image: url("images/sunset_rider.jpg");
+}
+.heading_text_box_about{
+  background-image: url("images/jumping.jpg");
 }
 span{
   color: #edeff2;
   font-size: 3.5rem;
 }
+.nav_flexbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Styling the Nav bar register button */
+.register{
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.register:hover{
+  color: #a3380d;
+}
+/* Styling the Chat icon */
 .chat_icon{
   position: fixed;
   right: 3.5rem;
@@ -112,11 +121,7 @@ span{
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
 }
-.nav_flexbox{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/* Who-we-are section */
 .who_we_are{
   padding: 15rem 0;
   display: flex;
@@ -149,6 +154,7 @@ span{
 .paragraph{
   margin-bottom: 3rem;
 }
+/* Styling the our-growth section */
 .statistics{
   padding: 5rem 0;
   display: flex;
@@ -172,6 +178,7 @@ span{
   font-size: 3rem;
   color: #000;
 }
+/* Driver's services section */
 .drivers_services{
   display: flex;
   gap: 7rem;
@@ -210,6 +217,7 @@ span{
 .drivers_services_link:hover{
   border-bottom: 2px solid #a3380d;
 }
+/* Electric bike section */
 .electric_bike{
   background-color: #fcf9dc;
   align-items: center;
@@ -217,6 +225,7 @@ span{
 .electric_bike_paragraph1{
   margin-bottom: 2rem;
 }
+/* Styling the footer */
 .footer{
   text-align: center;
   padding-top: 10rem;
@@ -270,9 +279,8 @@ span{
 .about_heading_link:hover{
   color: #a3380d;
 }
-.heading_text_box_about{
-  background-image: url("jumping.jpg");
-}
+
+/* Why Choose Us Section */
 .services{
   text-align: center;
   padding: 15rem 0;
@@ -294,8 +302,9 @@ span{
   gap: 3rem;
   margin-top: 8rem;
 }
+/* Styling the Contact Us Page */
 .heading_text_box_contact{
-  background-image: url("call.jpg");
+  background-image: url("images/call.jpg");
 }
 .contact{
   padding: 10rem 0;
@@ -321,6 +330,7 @@ span{
   background-color: #fcf9dc;
   padding: 10rem 0;
 }
+/* Styling the form on contact-us page */
 .input_box{
   height: 4rem;
   width: 23.6%;
@@ -360,6 +370,7 @@ span{
 .form_submit:hover{
   transform: scale(1.05);
 }
+/* Keyframe animations */
 @keyframes myMove{
   0% {
     opacity: 0;

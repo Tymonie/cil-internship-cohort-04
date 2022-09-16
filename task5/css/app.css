@@ -65,11 +65,12 @@ header .menu li{
 }
 .home{
     display: flex;
-    /*background: black;
-    */height: 100vh;
+   /* background: black;*/
+    height: 100vh;
     /*color: snow;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     */min-height: 500px;
+
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -84,10 +85,13 @@ header .menu li{
     padding:0 80px;
     margin: auto;
 }
+home .max-width{
+    padding: 0;
+}
 
 .slider {
-    width: 700px;
-    height: 300px;
+    width: 100%;
+    height: 550px;
     background-color: yellow;
     margin-left: auto;
     margin-right: auto;
@@ -96,9 +100,9 @@ header .menu li{
     overflow: hidden;
   }
   .image-container {
-    width: 2100px;
+    width: 300%;
     background-color: pink;
-    height: 300px;
+    height: 500px;
     clear: both;
     position: relative;
     -webkit-transition: left 2s;
@@ -116,26 +120,27 @@ header .menu li{
     left: 0px;
   }
   #slide-2:target ~ .image-container {
-    left: -700px;
+    left: -100%;
   }
   #slide-3:target ~ .image-container {
-    left: -1400px;
+    left: -200%;
   }
   .tex {
     position: relative;
-    top: -150px;
+    top: -50%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 60px;
+    font-weight: 800;
     color:snow;
     stroke-width: 4cm;
     stroke:black;
-    
-    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+  
     
   }
   .buttons {
     position: relative;
-    top: -75px;
+    top: -90px;
     
   }
 
@@ -218,7 +223,7 @@ section{
 
 footer{
     background:  rgb(44, 5, 80);
-    padding:70px 20px 23px;
+    padding:70px 10px 0px 10px;
     color: #fff;
     display: grid;
     grid-template-columns: 100%;
@@ -249,7 +254,7 @@ footer{
   }
 
   footer .foot-content{
-    padding: 10%;
+    padding: 10% 10% 0 10%;
    
     grid-column-start: 1;
     grid-row-start: row1-start;

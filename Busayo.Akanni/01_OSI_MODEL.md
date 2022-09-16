@@ -1,4 +1,4 @@
-# TASK 1
+# TASK
 > Describe any layered process you are familiar with similar to the OSI model.
 
 ## Answer:

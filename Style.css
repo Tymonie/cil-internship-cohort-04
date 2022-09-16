@@ -48,7 +48,7 @@ body{
 .hb{
     height: 88vh;
     width: 100%;
-    background-image: url(../Assets/Home\ hero\ imge.png);
+    background-image: url(./Dolapo.Adereti/Task5-HTMLCSS/Assets/Home-hero-imge.png);
     background-position: center;
     display: flex;
     justify-content: center;
@@ -267,7 +267,7 @@ body{
     margin: 50px 0;
     height: 40vh;
     width: 100%;
-    background-image:url(../Assets/Home2.png) ;
+    background-image:url(./Dolapo.Adereti/Task5-HTMLCSS/Assets/Home2.png) ;
     background-position: center;
     color: white;
     display: flex;

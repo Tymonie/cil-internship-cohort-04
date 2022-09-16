@@ -171,7 +171,7 @@ button {
     justify-content: space-between;
     display: flex;
     margin-top: 60px;
-    align-items: center;
+    align-items: stretch;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -474,16 +474,26 @@ button {
 .contact2-container {
     display: flex;
     justify-content: center;
+    min-height: 250px;
 }
 
 .contact2-item {
-    width: 200px;
+    width: 250px;
     margin: 10px;
     border: 3px solid #333;
     background-color: #dfdfdf;
 }
 
 .contact2-item-1 {
+    min-height: 100px;
+}
+
+.contact2-item-2 {
+    min-height: 100px;
+
+}
+
+.contact2-item-3 {
     min-height: 100px;
 }
 

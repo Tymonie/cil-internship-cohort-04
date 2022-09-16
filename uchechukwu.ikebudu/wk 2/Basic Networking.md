@@ -5,6 +5,12 @@
     </head>
     <body>
         <h1>Basic Networking</h1>
+        <h2>What are the NS IP addresses for Google, Facebook and Tesla?</h2>
+        <ul>
+        <li>Google: 8.8.8.8</li>
+        <li>Facebook: 185.89.219.12</li>
+        <li>Tesla:204.74.66.69</li>
+        </ul>
         <h2>“Breakdown the following RFC 1918 IPv4 address range into exactly 4
         subnetwork with no address left over.”
         10.10.10.0

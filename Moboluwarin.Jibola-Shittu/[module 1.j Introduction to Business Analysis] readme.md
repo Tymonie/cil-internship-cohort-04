@@ -1,5 +1,5 @@
 # LINK TO RECORDED VIDEO
-[https://jibolashittubolu.github.io/pages/ba_video/index.html](https://jibolashittubolu.github.io/pages/ba_video/index.html])
+[https://jibolashittubolu.github.io/pages/ba_video/index.html](https://jibolashittubolu.github.io/pages/ba_video/index.html)
 
 
 ---

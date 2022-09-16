@@ -1,3 +1,3 @@
-# Here's a link to the hosted page on Github.
+# Here's a link to the hosted page.
 
-> [Live site](https://didi1hub.github.io/cil-internship-cohort-04/)
+> [Live site](https://aesthetic-figolla-b087d5.netlify.app/)

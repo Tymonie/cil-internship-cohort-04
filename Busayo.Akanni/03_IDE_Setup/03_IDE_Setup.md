@@ -3,4 +3,4 @@
 
 
 
-![IDE Setup](./IDE.PNG "IDE Setup")
+![IDE Setup](IDE.PNG)

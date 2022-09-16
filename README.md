@@ -19,6 +19,9 @@ Link to my javascript task
 or follow the link delow
 <https://nneji-chidera-javascript.netlify.app/>
 
+Video Link to my on Business Analysis below  
+<https://www.dropbox.com/s/uoohbnol3a6n6y7/vid_20220914_185623.mp4?dl=0/>
+
 # Q1. Describe any layered process you are familiar with similar to the OSI model
 
 The TCP/IP model is a networking Model to standardize computer networking. Networking models, sometimes called network architecture or network blueprint, refers to a comprehensive set of rules designed to govern how data is shared between different computers.

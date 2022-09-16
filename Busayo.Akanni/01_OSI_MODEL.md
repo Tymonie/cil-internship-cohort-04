@@ -16,12 +16,12 @@ The TCP/IP model is a concise version of the OSI model. It contains four layers,
 * Process/Application Layer (Layer 4)
 * Host-to-Host/Transport Layer (Layer 3)
 * Internet Layer (Layer 2)
-* Network Access/Link Layer (Layer 1)
+* Network Access/Data Link Layer (Layer 1)
 
 The first layer is the Process layer on the behalf of the sender and Network Access layer on the behalf of the receiver. Here, we will be talking on the behalf of the receiver.
 
 1. **Network Access Layer** –
-This layer corresponds to the combination of Data Link Layer and Physical Layer of the OSI model. It looks out for hardware addressing and the protocols present in this layer allows for the physical transmission of data.
+This layer corresponds to the combination of Data Link Layer and Physical Layer of the OSI model. It looks out for hardware addressing and the protocols present in this layer allows for the physical transmission of data. It is the lowest layer of the TCP/IP model. It defines standards and protocols for data transmission and physical connectivity. Data link controls how data is sent and received. It uses **MAC (Media Access Control)** to form a frame. This is the layer where switching resides. Data from application layer has been segmented by transport layer and placed into packets by network layer and framed by data link layer to a sequence of 0 and 1 (Binary). This layer is responsible for the transmission of the data between two devices on the same network.
 
 2. **Internet Layer** –
 This layer parallels the functions of OSI’s Network layer. It defines the protocols which are responsible for logical transmission of data over the entire network. The main protocols residing at this layer are :

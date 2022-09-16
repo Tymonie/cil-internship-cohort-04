@@ -373,8 +373,8 @@ button {
 }
 
 .focus-container {
-    width: 95%;
-    height: 80vh;
+    width: 80%;
+    min-height: 80vh;
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -411,8 +411,9 @@ button {
 }
 
 .about3-container {
-    width: 100%;
-    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    min-height:100vh ;
 }
 
 #about3 h6, #about3 h2 {
@@ -468,6 +469,23 @@ button {
     color: #fff;
 
 
+}
+
+.contact2-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact2-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.contact2-item-1 {
+    min-height: 100px;
+}
 
 
     

@@ -301,7 +301,7 @@ footer {
   background-color: #352343;
   height: 90vh;
   width: 100vw;
-  color: white;
+  color: white !important;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -347,6 +347,9 @@ footer,
   padding-bottom: 10px;
   line-height: 2;
 }
+#footer__p-heading {
+  color: white;
+}
 .footer__bottom-left :nth-child(1),
 .footer__bottom-center :nth-child(1),
 .footer__bottom-right :nth-child(1) {
@@ -371,6 +374,15 @@ footer,
 .social-icons > a {
   color: white;
   text-decoration: none;
+  margin-right: 1vw;
+}
+.email-contacts a {
+  text-decoration: none;
+  color: grey;
+  line-height: 1;
+}
+#address-p-tag {
+  line-height: 1;
 }
 .chat-icon {
   position: fixed;
@@ -827,6 +839,8 @@ p {
   width: 15vw;
   font-size: 1.2rem;
   margin-bottom: 1vh;
+  border: none;
+  color: rgba(45, 45, 45, 0.987);
 }
 .root__index > p {
   color: black;

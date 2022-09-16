@@ -1,6 +1,7 @@
 # Software Development Process
 ## Question1 
-## Scrum
+## Scrum  
+Scrum is a software product development strategy that organizes software developers as a team to reach a common goal — creating a ready-for-market product. It is a widely used subset of agile software development.  
 
 ## Benefits of Scrum
 

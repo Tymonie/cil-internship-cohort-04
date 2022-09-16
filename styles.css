@@ -230,9 +230,10 @@ nav > ul > li > a {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 0px 0.5vw;
+  /* padding: 0px 0.5vw; */
+  padding: 0px 50px;
   font-size: 110%;
-  line-height: 2;
+  line-height: 1.6;
 }
 .home4__intro {
   display: flex;

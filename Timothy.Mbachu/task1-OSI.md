@@ -8,7 +8,7 @@ TCP/IP stands for Transmission Control Protocol/Internet Protocol and is a suite
 
 Just like the OSI model, the TCP/IP is divided into layers (four) namely:
 
-- **The Application layer** : Provides applications with standardized data exchange e.g HTTP.
-- **The Transport layer** : Maintains end-end communication across the network.
-- **The Network Layer** : Transports packets across independent network boundaries.
-- **The Physical Layer** : Interconnects hosts to the network. e.g Ethernet on local networks.
+- _The Application layer_ : Provides applications with standardized data exchange e.g HTTP.
+- _The Transport layer_ : Maintains end-end communication across the network.
+- _The Network Layer_ : Transports packets across independent network boundaries.
+- _The Physical Layer_ : Interconnects hosts to the network. e.g Ethernet on local networks.

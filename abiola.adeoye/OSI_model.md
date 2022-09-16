@@ -33,8 +33,19 @@ the TCP/IP model is based on the OSI model although it is considered less rigid 
 
 TCP/IP and OSI are the most widely used communication networking protocols. The main difference is that OSI is a conceptual model that is not practically used for communication. Rather, it defines how applications can communicate over a network. TCP/IP, on the other hand, is widely used to establish links and network interaction. TCP/IP model and the OSI model share some similarities which are:
 
+### Similarities between TCP/IP and OSI model
+
 * They are both logical models.
 * They define networking standards.
 * They divide the network communication process in layers.
 * They provide frameworks for creating and implementing networking standards and devices.
 * They enable one manufacturer to make devices and network components that can coexist and work with the devices and components made by other manufacturers.
+
+### differences between TCP/IP and OSI model
+
+* TCP/IP uses just one layer (application) to define the functionalities of the upper layers, while OSI uses three layers (application, presentation and session).
+* TCP/IP uses one layer (physical) to define the functionalities of the bottom layers, while OSI uses two layers (physical and data link).V
+* TCP/IP is a protocol-oriented standard, whereas OSI is a generic model based on the functionalities of each layer.
+* In TCP/IP, the protocols were developed first, and then the model was developed. In OSI, the model was developed first, and then the protocols in each layer were developed.
+* TCP/IP helps establish a connection between different types of computers, whereas OSI helps standardize routers, switches, motherboards and other hardware.
+

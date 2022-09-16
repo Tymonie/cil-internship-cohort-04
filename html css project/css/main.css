@@ -146,7 +146,7 @@ button {
 
 #ratings-section {
     background: #fffbf7;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -155,9 +155,9 @@ button {
 }
 
 .ratings-container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
-    height: 100%;
+    height: 60vh;
 }
 
 .header-title h2 {
@@ -194,10 +194,10 @@ button {
 }
 
 .home4-container {
-    width: 100%;
+    width: 90%;
     min-height: 100vh;
     margin: 80px;
-    padding: 10px 42px 60px;
+    padding: ;
     display: flex;
 }
 

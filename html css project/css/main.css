@@ -312,7 +312,7 @@ button {
 } 
 
 .home5-container {
-    width: 100%;
+    width: 90%;
     min-height: 100vh;
     margin: 80px;
     padding: 10px 42px 60px;
@@ -331,8 +331,7 @@ button {
 
 .home5-right {
     width: 50%;
-    padding-top: 200px;
-    
+    padding-top: 150px;
 }
 
 .home5-right h1 {
@@ -343,6 +342,10 @@ button {
 .home5-right p {
     font-size: 22px;
     font-family: poppins;
+}
+
+.home5-right a {
+    margin top: 50px;
 }
 
 #about1-section {

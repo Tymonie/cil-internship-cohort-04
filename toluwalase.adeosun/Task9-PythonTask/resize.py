@@ -13,6 +13,7 @@ def resize(my_pic, size):
 #     show the image with its new size
     return img_size.show()
 
-resize(my_pic, (10,30))
+
 
 # call the function with the right arguments
+resize(my_pic, (10,30))

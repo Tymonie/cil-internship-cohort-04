@@ -11,5 +11,4 @@ I look forward to being:
 - Dogged
 - Devoted
 
-
 all through this internship project

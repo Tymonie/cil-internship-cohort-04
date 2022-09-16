@@ -1,0 +1,1 @@
+[What Is Business Analysis and why is it important](https://photos.app.goo.gl/XKd8chFGX1smG43c6)

@@ -1,0 +1,1 @@
+[video on business analysis](https://drive.google.com/file/d/1wRUtKqDlqCi-pDv4NsCoxPrcbEGXfs3S/view?usp=sharing)

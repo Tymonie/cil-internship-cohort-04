@@ -1,0 +1,1 @@
+* Community version of pycharm IDE was installed along VS code IDE
